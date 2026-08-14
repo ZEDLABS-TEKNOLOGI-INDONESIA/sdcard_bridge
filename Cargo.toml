@@ -1,0 +1,12 @@
+[package]
+name = "sdcard_bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serialport = "4"
+clap = { version = "4", features = ["derive"] }
+indicatif = "0.17"
+xz2 = "0.1"
+crc32fast = "1"
+anyhow = "1"
